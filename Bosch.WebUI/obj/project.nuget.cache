@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rHOtBUBcCsSZtU/S9UESzNReNAVGDj3Wn3HX9Q+9anf/golOCzFuSoDkAcjF5fQQwmEGqqCKxJtIyTc6Z9aHrw==",
+  "success": true,
+  "projectFilePath": "/Users/sarp.herviz/Projects/BoschPOC/Bosch.WebUI/Bosch.WebUI.csproj",
+  "expectedPackageFiles": [
+    "/Users/sarp.herviz/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

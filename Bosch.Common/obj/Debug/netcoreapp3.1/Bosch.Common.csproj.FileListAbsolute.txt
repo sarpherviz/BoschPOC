@@ -1,0 +1,9 @@
+/Users/sarp.herviz/Projects/BoschPOC/Bosch.Common/bin/Debug/netcoreapp3.1/Bosch.Common.deps.json
+/Users/sarp.herviz/Projects/BoschPOC/Bosch.Common/bin/Debug/netcoreapp3.1/Bosch.Common.dll
+/Users/sarp.herviz/Projects/BoschPOC/Bosch.Common/bin/Debug/netcoreapp3.1/Bosch.Common.pdb
+/Users/sarp.herviz/Projects/BoschPOC/Bosch.Common/obj/Debug/netcoreapp3.1/Bosch.Common.csprojAssemblyReference.cache
+/Users/sarp.herviz/Projects/BoschPOC/Bosch.Common/obj/Debug/netcoreapp3.1/Bosch.Common.AssemblyInfoInputs.cache
+/Users/sarp.herviz/Projects/BoschPOC/Bosch.Common/obj/Debug/netcoreapp3.1/Bosch.Common.AssemblyInfo.cs
+/Users/sarp.herviz/Projects/BoschPOC/Bosch.Common/obj/Debug/netcoreapp3.1/Bosch.Common.csproj.CoreCompileInputs.cache
+/Users/sarp.herviz/Projects/BoschPOC/Bosch.Common/obj/Debug/netcoreapp3.1/Bosch.Common.dll
+/Users/sarp.herviz/Projects/BoschPOC/Bosch.Common/obj/Debug/netcoreapp3.1/Bosch.Common.pdb

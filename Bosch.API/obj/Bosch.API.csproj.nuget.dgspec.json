@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sarp.herviz/Projects/BoschPOC/Bosch.API/Bosch.API.csproj": {}
+  },
+  "projects": {
+    "/Users/sarp.herviz/Projects/BoschPOC/Bosch.API/Bosch.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sarp.herviz/Projects/BoschPOC/Bosch.API/Bosch.API.csproj",
+        "projectName": "Bosch.API",
+        "projectPath": "/Users/sarp.herviz/Projects/BoschPOC/Bosch.API/Bosch.API.csproj",
+        "packagesPath": "/Users/sarp.herviz/.nuget/packages/",
+        "outputPath": "/Users/sarp.herviz/Projects/BoschPOC/Bosch.API/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/sarp.herviz/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "http://dsget.azurewebsites.net/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/sarp.herviz/Projects/BoschPOC/Bosch.Common/Bosch.Common.csproj": {
+                "projectPath": "/Users/sarp.herviz/Projects/BoschPOC/Bosch.Common/Bosch.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Jaeger": {
+              "target": "Package",
+              "version": "[0.4.2, )"
+            },
+            "MetroBus": {
+              "target": "Package",
+              "version": "[2.0.6, )"
+            },
+            "MetroBus.Core": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "MetroBus.Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.8, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.6, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "NLog.GelfLayout": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Nlog.RabbitMQ.Target": {
+              "target": "Package",
+              "version": "[2.6.22, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sarp.herviz/Projects/BoschPOC/Bosch.Common/Bosch.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sarp.herviz/Projects/BoschPOC/Bosch.Common/Bosch.Common.csproj",
+        "projectName": "Bosch.Common",
+        "projectPath": "/Users/sarp.herviz/Projects/BoschPOC/Bosch.Common/Bosch.Common.csproj",
+        "packagesPath": "/Users/sarp.herviz/.nuget/packages/",
+        "outputPath": "/Users/sarp.herviz/Projects/BoschPOC/Bosch.Common/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/sarp.herviz/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "http://dsget.azurewebsites.net/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

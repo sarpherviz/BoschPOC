@@ -1,0 +1,38 @@
+﻿@model Bosch.Common.ProductData
+@{
+    ViewData["Title"] = "Add Product";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to add product.</p>
+
+@using (Html.BeginForm("AddProduct", "Home", FormMethod.Post, new { enctype = "application/json", @class = "form-horizontal col-md-12"}))
+{
+<table cellpadding="0" cellspacing="0">
+    <tr>
+        <th colspan="2" align="center">Person Details</th>
+    </tr>
+    <tr>
+        <td>Id: </td>
+        <td>
+            @Html.TextBoxFor(m => m.Id)
+        </td>
+    </tr>
+    <tr>
+        <td>Machine Id: </td>
+        <td>
+            @Html.TextBoxFor(m => m.MachineId)
+        </td>
+    </tr>
+    <tr>
+        <td>Product Barcode: </td>
+        <td>
+            @Html.TextBoxFor(m => m.ProductBarcode)
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="submit" value="Submit" /></td>
+    </tr>
+</table>
+}

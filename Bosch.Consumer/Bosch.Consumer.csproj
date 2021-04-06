@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-Bosch.Consumer-78A9ECF0-E595-41E7-94DC-2D26D6579B3A</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MetroBus" Version="2.0.6" />
+    <PackageReference Include="MetroBus.Core" Version="1.0.3" />
+    <PackageReference Include="MetroBus.Microsoft.Extensions.DependencyInjection" Version="1.0.6" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.12" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="3.1.12" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.8" />
+    <PackageReference Include="Polly" Version="7.2.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Configuration\" />
+    <Folder Include="Consumer\" />
+    <Folder Include="Data\" />
+    <Folder Include="Data\Interface\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bosch.Common\Bosch.Common.csproj" />
+  </ItemGroup>
+</Project>
